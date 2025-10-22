@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adam’s Portfolio</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #222;
+      text-align: center;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 2rem 0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    section {
+      padding: 2rem;
+    }
+    .work {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      padding: 1rem 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Adam’s Portfolio</h1>
+    <p>أصمم السير الذاتية، البطاقات، الشعارات والعروض التقديمية باحترافية</p>
+  </header>
+
+  <section>
+    <h2>أعمالي</h2>
+    <div class="work">
+      <div class="card">
+        <h3>سيرة ذاتية احترافية</h3>
+        <p>نموذج حديث وبسيط يساعدك على جذب انتباه أصحاب العمل.</p>
+      </div>
+      <div class="card">
+        <h3>بطاقة عمل (Business Card)</h3>
+        <p>تصميم أنيق وفريد يُبرز هويتك المهنية.</p>
+      </div>
+      <div class="card">
+        <h3>عرض تقديمي (Presentation)</h3>
+        <p>عرض بصري منظم وجذاب يساعدك في تقديم أفكارك بوضوح.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Adam | Portfolio</p>
+  </footer>
+</body>
+</html>
